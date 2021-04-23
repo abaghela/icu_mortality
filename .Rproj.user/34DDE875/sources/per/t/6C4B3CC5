@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1613542748157.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4087033969",
+    "id" : "6C4B3CC5",
+    "lastKnownWriteTime" : 1613544362,
+    "last_content_update" : 1613544362898,
+    "path" : "~/my_things/physionet_projects/icu_mortality/scripts/initial_data_explore.R",
+    "project_path" : "scripts/initial_data_explore.R",
+    "properties" : {
+        "cursorPosition" : "25,48",
+        "scrollLine" : "15",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
