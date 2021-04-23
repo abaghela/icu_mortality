@@ -1,9 +1,0 @@
-{
-    "path" : "~/my_things/physionet_projects/icu_mortality",
-    "sortOrder" : [
-        {
-            "ascending" : true,
-            "columnIndex" : 2
-        }
-    ]
-}
