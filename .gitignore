@@ -2,3 +2,4 @@ raw_data/*
 .Rhistory
 .Rproj.user/*
 .Rproj.user
+scripts/.ipynb_checkpoints
