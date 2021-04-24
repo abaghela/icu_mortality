@@ -3,3 +3,4 @@ raw_data/*
 .Rproj.user/*
 .Rproj.user
 scripts/.ipynb_checkpoints
+.DS_Store
