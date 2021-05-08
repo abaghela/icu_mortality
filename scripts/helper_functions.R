@@ -7,13 +7,10 @@ filt_sparse_rows_cols <- function(df, col_perc_max = 10, row_perc_max = 10) {
     map(~.x*100) %>% 
     keep(~.x <= col_perc_max) %>% 
     names()
-  
-  df_filt <- df %>% 
-    dplyr::select(one_of(keep_cols))
-  
+
   # Filter rows now
-  keep_rows <- (rowSums(is.na(df_filt))/ncol(df_filt))*100 < row_perc_max
+  keep_rows <- (rowSums(is.na(df))/ncol(df))*100 < row_perc_max
   
-  df_filt <- df_filt[keep_rows,]
+  df_filt <- df[keep_rows,keep_cols]
   return(df_filt)
 }
